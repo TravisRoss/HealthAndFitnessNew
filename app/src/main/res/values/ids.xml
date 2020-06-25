@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="graph" type="id" />
+    <item name="graph2" type="id" />
+    <item name="steps_debug" type="id" />
+</resources>

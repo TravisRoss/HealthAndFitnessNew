@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GoalsActivity">
+
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/goals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSetGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_goal"
+        android:textColor="@color/black"
+        android:textColorHint="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgSetGoals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSetGoals"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/txtSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/steps"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSetGoal" />
+
+    <EditText
+        android:id="@+id/etSteps"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="104dp"
+        android:inputType="phone"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/txtSteps"
+        app:layout_constraintStart_toEndOf="@+id/txtSteps"
+        app:layout_constraintTop_toBottomOf="@id/tvSetGoal" />
+
+    <TextView
+        android:id="@+id/tvCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSteps"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="32dp"
+        android:text="Calories"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtSteps" />
+
+    <EditText
+        android:id="@+id/etCalories"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:inputType="phone"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/tvCalories"
+        app:layout_constraintStart_toEndOf="@id/tvCalories"
+        app:layout_constraintTop_toBottomOf="@id/etSteps" />
+
+    <Button
+        android:id="@+id/btnSetGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCalories"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:background="@color/lightGreen"
+        android:text="@string/set_goal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCalories" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardgoal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/cardgoalsteps"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/steps" />
+
+            <TextView
+                android:id="@+id/stepsInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/cardgoalsteps"
+                android:text="Steps"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stepsInfo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@+id/cardgoalsteps"
+                android:gravity="center|left"
+                android:text="10k steps a day helps reduce health conditions such as high blood pressure."
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardgoal2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardgoal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/cardNutrition"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/calories" />
+
+            <TextView
+                android:id="@+id/infoNutrition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/cardNutrition"
+                android:text="Nutrition"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/infoNutrition"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@+id/cardNutrition"
+                android:gravity="center|left"
+                android:text="The RDA (Recommended Daily Amount calories) for males: 2500. Females: 2000." />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnHomeFromGoals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:background="@color/lightGreen"
+        android:text="HOME"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

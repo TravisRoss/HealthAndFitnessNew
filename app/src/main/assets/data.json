@@ -1,0 +1,44 @@
+{
+"workoutProgrammes" : [
+ {
+   "title": "StrongLifts 5x5 (Mixed Gender)",
+   "info": "Monday - workout A\nSquat 5x5\nBench Press 5x5\nBarbell Row 5x5\n\nWednesday - workout B\nSquat 5x5\nOverhead Press 5x5\nDeadlift 1x5\n\nFriday - Workout A\nSquat 5x5\nBench Press 5x5\nBarbell Row 5x5\n"
+ },
+ {
+   "title": "Beginner Full Body Workout for Women",
+   "info": "Romanian Deadlift\n30 Push-ups\n40 Sit-ups\n50 Squats\n5 rounds for time"
+ },
+ {
+   "title": "At Home Women’s Workout",
+   "info": "Bodyweight Squat\nRear Bodyweight Lunge\nSingle Leg Dumbbell Deadlift\nPush Up\nBand Lat Pull Down\nDumbbell Row\nPlank"
+ },
+ {
+   "title": "Women’s Fat Loss Upper Body",
+   "info": "Pull Down\nDumbbell Incline Bench Press\nCable Lateral Raise\nSeated Cable Row\nDumbbell Curls\nTricep Overhead Extension\nMachine Curl\nRope Pressdown"
+ },
+ {
+   "title": "Women’s Fat Loss Lower Body",
+   "info": "Barbell Squat\nRomanian Deadlift\nWalking Lunge\nBodyweight Curtsey Lunge\nGlute Kick Back"
+ },
+ {
+   "title": "Women's Strength Workout",
+   "info": "Incline Bench Dumbbell Press\nDumbbell Row\nStanding Dumbbell Press\nDumbbell Upright Row\nDumbbell Lunge\nDumbbell Stiff Leg Deadlift\nSingle Leg Calf Raise\nGoblet Squat\nLying Leg Lift\nAb Crunch"
+ },
+ {
+   "title": "Men's Upper Body Workout",
+   "info": "Exercise\nBench Press\nBarbell Row\nSeated Overhead Dumbbell Press\nPec Dec\nV-Bar Lat Pull Down\nSide Lateral Raise\nCable Tricep Extensions\nCable Curls"
+ },
+ {
+   "title": "Men's Lower Body Workout",
+   "info": "Exercise\nSquats\nStiff Leg Deadlifts\nStanding Calf Raise\nLeg Extensions\nLeg Curl\nSeated Calf Raise\nCable Crunch\nCable Pull Through w/Rope"
+ },
+ {
+   "title": "Men's Full Body Workout",
+   "info": "Squat (Straight Sets)\nBench Press or Military Press (Alternate)\nBarbell Row or Dumbbell Row\nWeighted Sit Ups or Side Bends (Alternate)\nExercise of your choice"
+ },
+ {
+   "title": "Men's Weight Loss Program",
+   "info": "Day 1\nBarbell Back Squat\nRomanian Deadlift\nDumbbell Step Up\nSmith Machine Calf Raise\n\nDay 2\nExercise\nFloor Press\nUnderhand Grip Barbell Row\nPush Press\nChin Up\nMachine Fly"
+ }
+]
+}
